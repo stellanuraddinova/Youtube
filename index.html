@@ -32,86 +32,87 @@
     </script>
 </head>
 
-<body class="font-body text-white flex overflow-hidden">
-    <div class="w-[220px] bg-black21 pr-[20px] overflow-y-auto h-[100vh]  ">
+<body class="font-body text-white flex overflow-hidden group">
+    <div class="w-[220px] has-[:checked]:w-[60px] has-[:checked]:pr-[0px] bg-black21 pr-[20px] overflow-y-auto h-[100vh]">
+        <input type="checkbox" id="checked" class="hidden">
         <div class="flex px-[20px] py-[16px]">
-            <figure class="mr-[18px]">
+            <label for="checked" class="mr-[18px] shrink-0">
                 <img src="./assets/img/menu.svg" alt="">
-            </figure>
+            </label>
             <figure class="text-[24px]">
                 <img src="./assets/img/logo.svg" alt="">
             </figure>
         </div>
 
         <div class="mt-[12px] ">
-            <button class="flex items-end pl-[20px] py-[5px] bg-black38 w-[200px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] px-[20px] bg-black32 w-[100%] group-has-[:checked]:bg-transparent">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/home.svg" alt="">
                 </figure>
-                <span class="text-[12px] font-semibold ml-[20px] mb-[2px]">Home</span>
+                <span class="text-[12px] font-semibold ml-[20px] whitespace-nowrap ">Home</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/explore.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Explores</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Explores</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/shorts.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Shorts</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Shorts</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px] ">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/subscription.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Subscriptions</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Subscriptions</span>
             </button>
         </div>
         <hr class="my-[16px] border-black38">
 
         <div>
-            <button class="flex items-end pl-[20px] py-[5px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px] ">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/library.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Library</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap ">Library</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/history.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">History</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">History</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px]">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/your_video.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Your videos</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Your videos</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px] ">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/watch_later.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Watch later</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Watch later</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px] ">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/liked.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Liked videos</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Liked videos</span>
             </button>
-            <button class="flex items-end pl-[20px] py-[5px] ">
-                <figure class="text-[24px]">
+            <button class="flex items-center h-[34px] py-[5px] pl-[20px]">
+                <figure class="text-[24px] group-has-[:checked]:shrink-0">
                     <img src="./assets/img/down_arrow.svg" alt="">
                 </figure>
-                <span class="text-[12px] ml-[20px] mb-[2px]">Show more</span>
+                <span class="text-[12px] ml-[20px] whitespace-nowrap">Show more</span>
             </button>
         </div>
         <hr class="my-[16px] border-black38">
 
-        <div>
+        <div class="group-has-[:checked]:hidden">
             <h3 class="font-semibold uppercase text-grayaa text-[13px] pl-[21px] pb-[8px]">SUBSCRIPTIONS</h3>
 
             <div class="flex items-center justify-between mb-[4px]">
@@ -198,7 +199,7 @@
         </div>
     </div>
 
-    <div class="w-[calc(100%_-_220px)] bg-black18">
+    <div class="group-has-[:checked]:w-[calc(100%_-_60px)] w-[calc(100%_-_220px)] bg-black18">
         <div class="flex justify-between items-center">
             <div class="w-[578px] flex py-[7px] justify-center grow">
                 <input class="w-[478px] bg-transparent border border-black32 pl-[6px] placeholder-grayaa outline-none"
@@ -335,7 +336,7 @@
         <hr class="ml-[10px] my-[10px] border-black38">
 
         <div class="mt-[2px] mx-[22px] overflow-y-auto h-[calc(100vh_-_130px)]">
-            <div class="grid grid-cols-4 gap-[14px]">
+            <div class="group-has-[:checked]:grid-cols-5 grid grid-cols-4 gap-[14px]">
                 <article class="grid grid-rows-1 w-[100%]">
                     <div class="size-[100%]">
                         <img class="size-[100%]" src="./assets/img/Thumbnail.svg" alt="">
